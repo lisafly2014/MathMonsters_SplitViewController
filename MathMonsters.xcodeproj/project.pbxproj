@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		DB4804292378E7F50039E889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4804282378E7F50039E889 /* AppDelegate.swift */; };
 		DB48042B2378E7F50039E889 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48042A2378E7F50039E889 /* SceneDelegate.swift */; };
-		DB48042D2378E7F50039E889 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48042C2378E7F50039E889 /* ViewController.swift */; };
 		DB4804302378E7F50039E889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB48042E2378E7F50039E889 /* Main.storyboard */; };
 		DB4804322378E7FC0039E889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4804312378E7FC0039E889 /* Assets.xcassets */; };
 		DB4804352378E7FC0039E889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4804332378E7FC0039E889 /* LaunchScreen.storyboard */; };
+		DB48043D2378FBDC0039E889 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48043C2378FBDC0039E889 /* MasterViewController.swift */; };
+		DB7492F12379014800F1CC00 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7492F02379014800F1CC00 /* DetailViewController.swift */; };
+		DB7492F32379049200F1CC00 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7492F22379049200F1CC00 /* Monster.swift */; };
+		DB7492F52379115A00F1CC00 /* MonsterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7492F42379115A00F1CC00 /* MonsterDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB4804252378E7F50039E889 /* MathMonsters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathMonsters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4804282378E7F50039E889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB48042A2378E7F50039E889 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB48042C2378E7F50039E889 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB48042F2378E7F50039E889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB4804312378E7FC0039E889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB4804342378E7FC0039E889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB4804362378E7FC0039E889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB48043C2378FBDC0039E889 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		DB7492F02379014800F1CC00 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DB7492F22379049200F1CC00 /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		DB7492F42379115A00F1CC00 /* MonsterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 			children = (
 				DB4804282378E7F50039E889 /* AppDelegate.swift */,
 				DB48042A2378E7F50039E889 /* SceneDelegate.swift */,
-				DB48042C2378E7F50039E889 /* ViewController.swift */,
 				DB48042E2378E7F50039E889 /* Main.storyboard */,
+				DB48043C2378FBDC0039E889 /* MasterViewController.swift */,
+				DB7492F02379014800F1CC00 /* DetailViewController.swift */,
+				DB7492F22379049200F1CC00 /* Monster.swift */,
+				DB7492F42379115A00F1CC00 /* MonsterDetailView.swift */,
 				DB4804312378E7FC0039E889 /* Assets.xcassets */,
 				DB4804332378E7FC0039E889 /* LaunchScreen.storyboard */,
 				DB4804362378E7FC0039E889 /* Info.plist */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB48042D2378E7F50039E889 /* ViewController.swift in Sources */,
+				DB7492F32379049200F1CC00 /* Monster.swift in Sources */,
+				DB7492F52379115A00F1CC00 /* MonsterDetailView.swift in Sources */,
 				DB4804292378E7F50039E889 /* AppDelegate.swift in Sources */,
 				DB48042B2378E7F50039E889 /* SceneDelegate.swift in Sources */,
+				DB48043D2378FBDC0039E889 /* MasterViewController.swift in Sources */,
+				DB7492F12379014800F1CC00 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
